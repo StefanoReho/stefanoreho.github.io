@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+
+<title>E-Portfolio Professionale</title>
+
+
+<style>
+
+body {
+
+margin:0;
+font-family:Verdana,sans-serif;
+
+background-image:url("immagini/sfondo.jpg");
+background-size:cover;
+background-attachment:fixed;
+
+}
+
+html{
+
+scroll-behavior:smooth;
+scroll-padding-top:120px;
+
+}
+
+
+.contenuto{
+
+background-color:rgba(255,255,255,0.93);
+width:90%;
+margin:20px auto;
+padding:25px;
+
+}
+
+
+
+
+
+h1,h2,h3{
+
+color:#003366;
+
+}
+
+
+p {
+   text-align:justify;
+   font-size: 14px;
+   line-height: 2;}
+
+
+
+
+/* BANNER LABORATORIO ELETTRONICO */
+
+.banner-laboratorio{
+
+width:100%;
+height:200px;
+
+margin:25px 0;
+
+background-image:
+linear-gradient(
+rgba(0,102,204,0.35),
+rgba(255,255,255,0.55)
+),
+url("immagini/scheda.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+border-radius:15px;
+
+box-shadow:
+0 5px 15px rgba(0,0,0,0.25);
+
+filter:blur(0.3px);
+
+}
+
+
+/* MENU */
+
+.menu{
+
+width:100%;
+border-collapse:collapse;
+margin-bottom:30px;
+
+position:sticky;
+top:0;
+z-index:1000;
+
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.2);
+
+}
+
+.menu td{
+
+border:1px solid #0066cc;
+background:#3399ff;
+
+text-align:center;
+
+padding:15px;
+
+}
+
+
+.menu a{
+
+color:white;
+
+font-weight:bold;
+
+text-decoration:none;
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+gap:8px;
+
+}
+
+
+.menu img{
+
+width:50px;
+height:50px;
+
+animation:movimento 3s infinite;
+
+}
+
+
+@keyframes movimento{
+
+50%{
+
+transform:translateY(-8px);
+
+}
+
+}
+
+
+.menu a:hover{
+
+color:yellow;
+
+}
+
+
+.menu a:hover img{
+
+transform:scale(1.2);
+            transform: scale(1.3) rotate(10deg); /*animazione transform */
+            animation: none;
+}
+
+
+
+
+/* BOX */
+
+.box{
+
+background:#e6f2ff;
+
+padding:20px;
+
+margin:25px 0;
+
+border-radius:12px;
+
+}
+
+
+
+.paragrafo{
+
+background:white;
+
+padding:15px;
+
+margin:15px 0;
+
+border-left:5px solid #0066cc;
+
+}
+
+
+
+textarea{
+
+width:100%;
+
+height:120px;
+
+}
+
+
+
+/* INDICATORI */
+
+.indicatore{
+
+background:white;
+
+padding:15px;
+
+margin:15px 0;
+
+border-left:5px solid #003366;
+
+}
+
+
+
+.livelli{
+
+margin-top:10px;
+
+}
+
+
+
+.livello{
+
+padding:5px 10px;
+
+display:inline-block;
+
+margin-right:10px;
+
+border-radius:5px;
+
+}
+
+
+.colorato{
+
+background:#ffd966;
+
+font-weight:bold;
+
+}
+
+
+
+/* FINE */
+
+.fine-pagina{
+
+text-align:center;
+
+background:#cce6ff;
+
+padding:15px;
+
+}
+
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+<div class="contenuto">
+
+
+
+<img src="immagini/foto personale.png"
+width="130">
+
+
+
+<h1>
+E-Portfolio Stefano Reho
+</h1>
+<h3>
+Classe di Abilitazione A040 - III Ciclo - A.A. 2025/2026 
+</h3>
+<h3>
+MATR. 728381 - Università di Pisa
+</h3>
+
+<!-- IMMAGINE SFUMATA LABORATORIO -->
+
+<div class="banner-laboratorio"></div>
+
+
+
+<!-- MENU -->
+
+
+<table class="menu">
+
+<tr>
+
+
+<td>
+
+<a href="#autobiografia">
+
+<img src="immagini/autobiografia.png">
+
+AUTOBIOGRAFIA<br>
+FORMATIVA
+
+</a>
+
+</td>
+
+
+
+<td>
+
+<a href="#bilancio">
+
+<img src="immagini/bilancio competenze.png">
+
+BILANCIO<br>
+COMPETENZE
+
+</a>
+
+</td>
+
+
+
+<td>
+
+<a href="#esperienze">
+
+<img src="immagini/esperienze professionali.png">
+
+ESPERIENZE<br>
+PROFESSIONALI
+
+</a>
+
+</td>
+
+
+
+<td>
+
+<a href="#riflessioni">
+
+<img src="immagini/riflessioni conclusive.png">
+
+RIFLESSIONI<br>
+CONCLUSIVE
+
+</a>
+
+</td>
+
+
+
+</tr>
+
+</table>
+<!-- 1 AUTOBIOGRAFIA -->
+
+
+<a id="autobiografia"></a>
+
+
+<div class="box">
+
+
+<h2>
+1. Autobiografia Formativa
+</h2>
+
+
+<div class="paragrafo">
+
+<h3>
+Breve Introduzione Personale
+</h3>
+
+<p>
+L’anno scolastico 2025/2026 ha rappresentato per me un passaggio importante, sia a livello personale che professionale, infatti ho avuto l’opportunità di vivere la prima esperienza come docente nella scuola secondaria di secondo grado, nello specifico presso un Liceo Scientifico – Opzione Scienze Applicate.<br>
+La mia classe di concorso A040 (Scienze e Tecnologie Elettriche ed Elettroniche) comprende un insieme piuttosto ampio di discipline tecniche, spaziando dall’elettronica all’elettrotecnica, fino ad arrivare a diversi ambiti dell’informatica e dell’automazione. Quest’anno mi è stato affidato l’insegnamento della materia “Informatica” nel Liceo Scientifico, una disciplina che ho accolto con entusiasmo perché rappresenta uno dei tasselli molto importanti di un percorso formativo e professionale costruito nel tempo. Infatti, penso che le mie competenze affondino le radici nello studio di carattere “tecnico” che ho svolto negli anni, durante i quali ho avuto modo di approfondire discipline come appunto l’informatica, l’elettronica, l’elettrotecnica, le telecomunicazioni ed i sistemi di controllo automatici applicati alla meccatronica. Ed effettivamente, ciò che mi ha sempre affascinato, è proprio il carattere multidisciplinare di questi settori, ambiti diversi che dialogano continuamente tra loro e che trovano applicazione concreta nella realtà. <br>
+
+</p>
+
+
+
+</div>
+
+
+<div class="paragrafo">
+
+    <h3>Percorso Formativo</h3>
+<!--
+<div style="display:flex; align-items:flex-start;">
+    <img src="immagini/logo polito.png"
+         alt="Logo Politecnico"
+         title="Logo Politecnico"
+         style="width:15%; margin-right:17px; margin-bottom:15px; margin-top:15px;">
+
+    <ul style="margin:100; padding-left:20px;">
+        <li style="margin-bottom:15px;">Abilitazione all'esercizio della professione di Ingegnere - Settore A - Industriale</li>
+		<li style="margin-bottom:15px;">Laurea Specialistica in Ingegneria Meccatronica</li>
+        <li>Laurea in Ingegneria Elettronica</li>
+    </ul>
+</div>
+
+<hr>
+
+<div style="display:flex; align-items:flex-start;">
+    <img src="immagini/logo albo.png"
+         alt="Logo Albo Siena"
+         title="Logo Albo Siena"
+         style="width:7%; margin-right:70px; margin-left:50px; margin-bottom:15px; margin-top:15px;">
+
+    <ul style="margin:100; padding-left:20px;">
+        <li style="margin-top:30px;">Iscrizione all'Albo degli Ingegneri della Provincia di Siena - N.1117 - Settore A - Industriale</li>
+		
+    </ul>
+</div>
+
+-->
+
+<table style="width:100%; border-collapse:collapse;">
+
+    <tr>
+        <td style="width:18%; vertical-align:middle; padding:15px; text-align:center;">
+            <img src="immagini/logo polito.png"
+                 alt="Logo Politecnico"
+                 title="Logo Politecnico"
+                 style="max-width:180px; width:100%; height:auto;">
+        </td>
+
+        <td style="vertical-align:middle; padding:15px;">
+            <i>&#8226 Abilitazione all'esercizio della professione di Ingegnere - Settore A - Industriale<br><br>
+            &#8226 Laurea Specialistica in Ingegneria Meccatronica<br><br>
+            &#8226 Laurea in Ingegneria Elettronica</i>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+            <hr>
+        </td>
+    </tr>
+
+    <tr>
+        <td style="width:18%; vertical-align:middle; padding:15px; text-align:center;">
+            <img src="immagini/logo albo.png"
+                 alt="Logo Albo Siena"
+                 title="Logo Albo Siena"
+                 style="max-width:100px; height:auto;">
+        </td>
+
+        <td style="vertical-align:middle; padding:15px;">
+            <i> &#8226 Iscrizione all'Albo degli Ingegneri della Provincia di Siena - N.1117 - Settore A - Industriale </i>
+        </td>
+    </tr>
+
+</table>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="paragrafo">
+
+<h3>
+Percorso Professionale
+</h3>
+
+<p>
+Per molti anni ho lavorato nel settore dell’automazione di processo, un contesto estremamente dinamico che mi ha consentito di confrontarmi con tecnologie in continua evoluzione. Credo che questa esperienza abbia contribuito a mantenere viva la mia curiosità professionale e la necessità di aggiornarmi costantemente, soprattutto in un settore come quello tecnologico, dove è chiaro che oggigiorno fermarsi significa rischiare di “rimanere indietro” nel giro di poco tempo. <br><br>
+Devo ammettere anche che accanto al percorso lavorativo, c’è sempre stata una passione più personale per la tecnologia. Fin da bambino, infatti, ero sempre incuriosito dal funzionamento degli oggetti elettronici, e a dire il vero, questa curiosità avrebbe causato qualche piccolo “grattacapo” ai miei genitori in quanto era abbastanza normale vedermi smontare giocattoli e apparecchi di ogni genere, nel tentativo di capire cosa ci fosse all’interno, non sempre poi riuscivo a rimontarli correttamente e spesso, alla fine, avanzava sempre qualcosa! &#128522; Quella curiosità innata non mi ha mai abbandonato. 
+
+
+</p>
+
+
+
+</div>
+
+
+
+
+<div class="paragrafo">
+
+<h3>
+Riflessioni Professionali Iniziali
+</h3>
+
+<p>
+Durante la mia attività professionale ho avuto spesso l’opportunità di svolgere attività di formazione rivolte sia a personale interno all’azienda sia a tecnici esterni, ho progettato ed erogato training specialistici e ho affiancato personale neoassunto sul campo, penso sia stata un’esperienza valida che abbia alimentato sempre di più il mio interesse verso l’insegnamento, forse senza che me ne rendessi subito conto. Nasce proprio da qui la scelta di intraprendere questo nuovo percorso professionale, ossia dalla convinzione che trasmettere conoscenze significhi prima di tutto condividere una passione, senza limitarsi soltanto a spiegare contenuti o fornire competenze tecniche; ciò che veramente desidero è riuscire a rendere partecipi gli studenti, a suscitare la loro curiosità e far vedere loro come le materie tecniche possano effettivamente diventare uno strumento utile per comprendere il mondo che ci circonda. Non so se questo risultato sia sempre facile da raggiungere, ogni classe infatti è diversa e ogni studente porta con sé interessi, aspettative e particolarità differenti. <br> <br>
+La figura dell’insegnante che vorrei rappresentare, può essere immaginata come una guida competente e disponibile, una persona capace di creare un clima positivo e di ascolto, in cui ogni studente possa sentirsi coinvolto e valorizzato, di conseguenza ritengo fondamentale adattare la didattica alle diverse esigenze, promuovendo inclusione e partecipazione attiva, con particolare attenzione agli studenti che necessitano di un supporto maggiore. <br><br>
+Dal punto di vista pedagogico, mi riconosco in un approccio ispirato a John Dewey, che valorizza l’esperienza diretta e l’apprendimento attraverso il “fare”, dove la didattica laboratoriale, il problem solving e il lavoro cooperativo rappresentano strumenti fondamentali per rendere lo studente protagonista del proprio percorso. <br>
+Parallelamente a ciò, considero una visione “costruttivista” dell’apprendimento, secondo cui la conoscenza si costruisce attivamente, per questo rivolgo particolare attenzione alla dimensione del “comprendere come fare”, che di conseguenza favorisce lo sviluppo della consapevolezza dei processi di apprendimento e contribuisce al raggiungimento dell'obiettivo di “imparare a imparare”. <br>
+Ritengo dunque molto importante collegare gli aspetti teorici alle attività pratiche in quanto sono fermamente convinto che gli studenti comprendano a fondo gli argomenti solo quando hanno la possibilità di applicarli a situazioni concrete, ed in tale contesto, sarebbe importante prevedere esercitazioni, progetti e attività che permettano di mettere in pratica le conoscenze acquisite, sviluppando competenze utili anche al di fuori dell’ambiente scolastico, magari “sfruttando” quanto più possibile gli strumenti digitali, in quanto se ben utilizzati, secondo me possono offrire davvero un valido supporto a rendere le lezioni più dinamiche, coinvolgenti e vicine agli interessi degli studenti.
+
+
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<!-- 2 BILANCIO -->
+
+
+<a id="bilancio"></a>
+
+
+<div class="box">
+
+
+<h2>
+2. Bilancio Iniziale delle Competenze
+</h2>
+
+<div class="paragrafo">
+
+<h3>
+Riflessioni Iniziali
+</h3>
+
+<p>
+Di base penso di avere alcune competenze sia dal punto di vista didattico sia dal punto di vista relazionale, credo derivino soprattutto dal mio percorso di studi e dalle esperienze lavorative svolte negli ultimi anni, che mi hanno aiutato a sviluppare autonomia, senso di responsabilità e capacità di adattamento, ciò mi permette di affrontare con tranquillità nuovi argomenti, sempre nella consapevolezza dell’importanza di continuare costantemente a studiare. <br><br>
+Per quanto riguarda i rapporti interpersonali, posso dire che i riscontri positivi ricevuti dalle persone con cui ho collaborato rappresentano per me un importante punto di riferimento, queste esperienze le considero preziose e mi hanno lasciato molto, sia dal punto di vista umano che professionale. <br><br>
+Durante il percorso di tirocinio ho capito quanto sia complesso organizzare il lavoro di un docente. Preparare lezioni, correggere verifiche, partecipare alle attività scolastiche e gestire il tempo richiedono metodo e una buona capacità organizzativa, a mio avviso non sempre è facile trovare il giusto equilibrio, ma penso che sia un aspetto fondamentale di questa professione. Allo stesso tempo, ci sono alcuni aspetti che vorrei approfondire e migliorare, come ad esempio acquisire maggiore gestione della classe ed imparare a proporre attività sempre più coinvolgenti per gli studenti, tenendo conto delle diverse modalità di apprendimento ed integrando quanto più possibile le potenti risorse digitali dedicate alla didattica. <br><br>
+Infine, credo che la collaborazione all’interno della scuola, sia tra i docenti sia con le famiglie, abbia un ruolo decisivo, infatti quando il dialogo si propone aperto e si condividono gli obiettivi educativi, si creano le condizioni migliori per accompagnare ogni studente nel proprio percorso di crescita scolastica e personale.
+
+
+
+</p>
+
+
+</div>
+
+
+
+
+
+<h3>
+Progettare e gestire situazioni di apprendimento
+</h3>
+
+
+
+<div class="indicatore">
+
+<b>Indicatore 1.1</b>
+
+<p><i>Individualizzare e/o personalizzare i percorsi di apprendimento a seconda dei diversi bisogni di studenti e studentesse adattando l’insegnamento e le attività in funzione delle differenze individuali e delle diverse modalità di apprendimento e degli obiettivi di apprendimento raggiunti dal gruppo-classe, in coerenza con le indicazioni ministeriali e con i traguardi delle competenze previsti dal curricolo d’Istituto.</i>
+</p>
+
+
+<div class="livelli">
+
+<span class="livello">□ Iniziale</span>
+
+<span class="livello colorato">□ Base</span>
+
+<span class="livello">□ Medio</span>
+
+<span class="livello">□ Avanzato</span>
+
+</div>
+
+</div>
+
+
+
+
+<div class="indicatore">
+
+<b>Indicatore 1.2</b>
+
+<p>
+<i>Attuare l’insegnamento seguendo un piano organizzato e strutturato che associ contenuti a relativi obiettivi di apprendimento, stabilendone i tempi e le fasi e il passaggio tra un’attività e un’altra. </i>
+</p>
+
+
+<div class="livelli">
+
+<span class="livello">□ Iniziale</span>
+
+<span class="livello">□ Base</span>
+
+<span class="livello colorato">□ Medio</span>
+
+<span class="livello">□ Avanzato</span>
+
+</div>
+
+</div>
+
+
+
+<div class="indicatore">
+
+<b>Indicatore 1.3</b>
+
+<p>
+<i>Individuare le principali connessioni interdisciplinari esistenti tra le discipline a cui si riferisce la classe di concorso o alle altre discipline. </i>
+</p>
+
+
+<div class="livelli">
+
+<span class="livello">□ Iniziale</span>
+
+<span class="livello">□ Base</span>
+
+<span class="livello colorato">□ Medio</span>
+
+<span class="livello">□ Avanzato</span>
+
+</div>
+
+</div>
+
+
+
+<h3>
+Adottare e adattare strategie e metodi didattici
+</h3>
+
+
+
+<div class="indicatore">
+
+<b>Indicatore 2.1</b>
+
+<p>
+<i>Utilizzare tecnologie, strumenti innovativi e ambienti di apprendimento organizzati, supportando le necessità di ogni studente, anche alternando dispositivi, materiali didattici e attività, adattandoli in corso d’opera per ottimizzare l’apprendimento. </i>
+</p>
+
+
+<div class="livelli">
+
+<span class="livello">□ Iniziale</span>
+
+<span class="livello">□ Base</span>
+
+<span class="livello colorato">□ Medio</span>
+
+<span class="livello">□ Avanzato</span>
+
+</div>
+
+</div>
+
+
+
+
+<div class="indicatore">
+
+<b>Indicatore 2.2</b>
+
+<p>
+<i>Organizzare ambienti e spazi di apprendimento finalizzati all’implementazione di strategie per l’individualizzazione e la personalizzazione dei percorsi di apprendimento sia per far emergere i diversi talenti di studenti e studentesse sia per favorire l’inclusione di studenti e studentesse con BES, DSA o disabilità. </i>
+</p>
+
+
+<div class="livelli">
+
+<span class="livello">□ Iniziale</span>
+
+<span class="livello colorato">□ Base</span>
+
+<span class="livello">□ Medio</span>
+
+<span class="livello">□ Avanzato</span>
+
+</div>
+
+</div>
+
+
+
+
+
+<h3>
+Adottare strategie e metodi di valutazione
+</h3>
+
+
+
+<div class="indicatore">
+
+<b>Indicatore 3.1</b>
+
+<p>
+<i>Progettare attività di verifica coerenti con gli obiettivi di apprendimento e variare le tipologie di prove per valutare le competenze disciplinari e trasversali. </i>
+</p>
+
+
+<div class="livelli">
+
+<span class="livello">□ Iniziale</span>
+
+<span class="livello">□ Base</span>
+
+<span class="livello colorato">□ Medio</span>
+
+<span class="livello">□ Avanzato</span>
+
+</div>
+
+</div>
+
+
+
+<div class="indicatore">
+
+<b>Indicatore 3.2</b>
+
+<p>
+<i>Fornire valutazioni formative durante il percorso didattico, comunicando chiaramente obiettivi e criteri fin dall'inizio e fornendo feedback per stimolare il miglioramento continuo degli studenti e delle studentesse. </i>
+</p>
+
+
+<div class="livelli">
+
+<span class="livello">□ Iniziale</span>
+
+<span class="livello">□ Base</span>
+
+<span class="livello colorato">□ Medio</span>
+
+<span class="livello">□ Avanzato</span>
+
+</div>
+
+</div>
+
+
+
+<h3>
+Gestire relazioni e comportamenti in classe
+</h3>
+
+
+
+<div class="indicatore">
+
+<b>Indicatore 4.1</b>
+
+<p>
+<i>Promuovere in studenti e studentesse l’apprendimento collaborativo e/o cooperativo, condividendo regole di comportamento e forme di comunicazione che tengano conto delle diversità e facilitino il superamento di eventuali situazioni problematiche. </i>
+</p>
+
+
+<div class="livelli">
+
+<span class="livello">□ Iniziale</span>
+
+<span class="livello">□ Base</span>
+
+<span class="livello colorato">□ Medio</span>
+
+<span class="livello">□ Avanzato</span>
+
+</div>
+
+</div>
+
+
+
+
+<div class="indicatore">
+
+<b>Indicatore 4.2</b>
+
+<p>
+<i>Sostenere l’autostima di ogni studente e studentessa e favorirne la percezione di autoefficacia (anche quando membro di un gruppo) valorizzando il suo contributo e l’impegno profuso. </i>
+</p>
+
+
+<div class="livelli">
+
+<span class="livello">□ Iniziale</span>
+
+<span class="livello">□ Base</span>
+
+<span class="livello colorato">□ Medio</span>
+
+<span class="livello">□ Avanzato</span>
+
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+<!-- 3 ESPERIENZE PROFESSIONALI -->
+
+
+<a id="esperienze"></a>
+
+
+<div class="box">
+
+
+<h2>
+3. Esperienze Professionali
+</h2>
+
+
+<div class="paragrafo">
+
+<h3>
+Esperienza Attività Didattica
+</h3>
+
+<p><b>Titolo della esperienza </b></p>
+<p>Osservazione e conduzione di attività didattiche in classi della scuola secondaria di secondo grado : metodologie attive, inclusione e relazione educativa</p>
+
+<p><b>Durata della esperienza</b></p>
+<p>Intero anno scolastico 2025/2026</p>
+
+<p><b>Descrizione attività e Riflessioni</b></p>
+<p>L’esperienza si è sviluppata lungo l’intero anno scolastico 2025/2026 e ha coinvolto complessivamente nove classi del Liceo Scientifico – Opzione Scienze Applicate, presso l’IIS “Roncalli” di Poggibonsi (SI), nelle quali ho svolto regolarmente attività di insegnamento della materia “Informatica”. A partire dall’ultimo trimestre, in parallelo al percorso di tirocinio diretto, ho avuto inoltre l’opportunità di osservare e affiancare la docente Tutor in una classe quinta dell’indirizzo Tecnico Elettronico ed Elettrotecnico, questo duplice ruolo mi ha consentito di confrontare l’esperienza di insegnamento diretto con quella di osservazione sul campo, arricchendo la mia professionalità attraverso il contatto con contesti, metodologie e dinamiche di classe differenti. Nel corso dell’anno ho alternato momenti di progettazione e conduzione delle lezioni a occasioni di osservazione e confronto con i docenti, maturando una visione più ampia e concreta della realtà scolastica. </p>
+</div>
+
+
+<div class="paragrafo">
+
+<h3>
+Esperienza Progettazione ed Implementazione Metodologie Didattiche
+</h3>
+
+<p><b>Titolo dell'esperienza</b></p>
+<p>Progettazione ed implementazione della metodologia Circle Time su tematiche di attualità: liberalizzazione delle droghe leggere e  reintroduzione dell’energia nucleare </p>
+<p><b>Durata dell’implementazione : </b></p>
+ <p>1 ora</p>
+
+<p><b>Descrizione generale dell’attività: </b></p>
+<p>Il Circle Time rappresenta un momento educativo molto importante in cui si favorisce l’apprendimento emotivo e si migliorano le relazioni all’interno della classe, contribuendo così allo sviluppo di un gruppo unito e rispettoso. </p>
+<u>1.Preparazione dello spazio</u> 
+<p>In generale, il Circle Time richiede di preparare lo spazio in modo da favorire l’inclusione e la partecipazione, di conseguenza gli alunni si dispongono in cerchio, eliminando eventuali barriere visive come cattedre o banchi, creando in tal modo un ambiente calmo e accogliente, che favorisca la concentrazione e la partecipazione. </p>
+<u>2.Definizione delle regole</u>
+<p>Di solito, il docente spiega le regole di base, di norma molto semplici, come parlare uno alla volta, ascoltare con rispetto, sospendere il giudizio e avere la possibilità di non intervenire,  viene soprattutto chiarito che non sono ammessi giudizi o prese in giro, così da garantire la libertà di espressione per tutti. </p>
+<u>3.Fase di apertura</u>
+<p>Nella fase di apertura, di solito si fa un giro di parola per permettere a ciascuno di condividere il proprio stato d’animo, con la classica risposta alla domanda (“Come mi sento oggi?”), e a tale proposito, si possono proporre anche brevi giochi o canti per rompere il ghiaccio. Inoltre, un oggetto simbolico, come una pallina o un bastone della parola, regola i turni di intervento. </p>
+<u>4.Scelta delle tematiche</u>
+<p>Gli argomenti di discussione vengono proposti e scelti insieme agli studenti o indicati dal docente, questo permette di trattare temi coinvolgenti, stimolando l’interesse e la motivazione di tutti i partecipanti. </p>
+<u>5.Discussione guidata</u>
+<p>Il docente assume il ruolo di facilitatore, stimola la partecipazione attraverso domande aperte e garantisce un equilibrio tra gli interventi, di conseguenza gli studenti possono esprimere opinioni diverse, sempre in modo rispettoso. </p>
+<u>6.Chiusura</u>
+<p>Al termine del Circle Time, si fa una sintesi del confronto emerso, evidenziando i punti principali della discussione, in tal modo gli studenti condividono le emozioni finali e, quando possibile, si prendono decisioni condivise su eventuali comportamenti o azioni da adottare in classe. </p>
+<p><b>Considerazioni finali</b></p>
+<p>C’è da dire in letteratura il Circle Time viene spesso preceduto da letture o momenti di studio individuale sull’argomento, si tratta sicuramente di strumenti utili per argomentare il discorso, ma penso che tale approccio possa talvolta limitare uno degli elementi più interessanti di questa metodologia, infatti, gran parte della sua utilità  nasce proprio dalla spontaneità degli interventi e dalla possibilità per ogni studente di esprimere ciò che pensa nel momento stesso in cui prende la parola, sarebbe proprio questa “immediatezza” che, almeno secondo la mia esperienza, rende il confronto più sincero e coinvolgente. <br>
+Un altro aspetto che considero particolarmente delicato riguarda il ruolo del docente, che assume prevalentemente le funzioni di “guida” e  “moderatore”, quasi come in un “talk show televisivo”, per tal motivo, ritengo che l'insegnante debba evitare di esprimere opinioni troppo nette o predominanti in quanto, se ciò dovesse accadere, qualcuno potrebbe sentirsi condizionato o temere di esprimere un punto di vista diverso. A lungo andare infatti, questo rischio potrebbe ridurre la partecipazione degli studenti e compromettere quella libertà di espressione che rappresenta, in fondo, il “cuore” stesso di questa metodologia. </p>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<!-- 4 RIFLESSIONI CONCLUSIVE -->
+
+
+<a id="riflessioni"></a>
+
+
+<div class="box">
+
+
+<h2>
+4. Riflessioni professionali conclusive
+</h2>
+
+<div class="paragrafo">
+
+<h3>
+Autoriflessione sulle attività di Tirocinio Indiretto
+</h3>
+
+
+<p>Grazie alle attività di tirocinio indiretto credo di aver rafforzato soprattutto le competenze legate alla progettazione didattica, alla riflessione sulle pratiche educative e alla capacità di osservare in modo più critico il contesto scolastico. Gli incontri mi hanno aiutato a comprendere meglio come strutturare una “lezione efficace”, quali metodologie utilizzare e come adattarle alle diverse situazioni che si possono incontrare in classe, anche l'approfondimento della normativa scolastica si è rivelato utile per avere una visione più completa del ruolo dell'insegnante. <br><br>
+Uno degli aspetti che ho apprezzato maggiormente è stata la possibilità di confrontarmi con gli altri tirocinanti, all'inizio pensavo che alcune difficoltà o scelte fossero legate esclusivamente al mio percorso, ma ascoltando le esperienze degli altri ho scoperto molte somiglianze, pur nella diversità delle situazioni vissute, e proprio questo, a mio avviso, ha rappresentato la parte più interessante degli incontri. <br><br>
+Una delle attività che ho trovato più significativa è stata la possibilità di progettare e realizzare sul campo la metodologia didattica Circle Time, assegnato quasi come un “compito” da svolgere durante il tirocinio diretto. Devo ammettere che inizialmente ero piuttosto scettico ed indeciso, ma ho cambiato subito idea appena ho avuto modo di mettere in pratica l’attività, si è rivelata infatti un'esperienza davvero molto coinvolgente e utile per favorire il dialogo e la partecipazione degli studenti. Successivamente ho avuto l'opportunità di condividere l’esito dell’esperienza con gli altri tirocinanti nonché di conoscere i loro risultati ottenuti, non nascondendo la curiosità di vedere se le altre tecniche potessero aver avuto un risvolto migliore sulla classe. Questo scambio di idee e di esperienze, opportunamente organizzato dal Tutor Coordinatore del Tironcinio Indiretto, è stato particolarmente stimolante e mi ha permesso di riflettere su approcci e strategie diverse da quelle che avevo sperimentato personalmente. </p>
+
+
+</div>
+
+
+<h3>
+Livelli di competenza al termine del percorso
+</h3>
+
+
+
+<div class="indicatore">
+
+<b>Saperi disciplinari e didattici</b>
+
+<p>
+Sulla base della mia formazione accademica e del percorso professionale svolto negli anni, penso di avere una buona preparazione disciplinare. L'esperienza maturata durante quest'anno di insegnamento nella scuola secondaria di secondo grado mi ha permesso di mettere alla prova tali competenze anche sul piano didattico, avendo conferma, dai feedbacks ricevuti, di una buona padronanza dei contenuti e di modeste modalità per trasmetterli agli studenti. Naturalmente, credo che l'aggiornamento continuo rimanga sempre una componente fondamentale della professione docente.
+
+</p>
+
+
+
+</div>
+
+
+<div class="indicatore">
+
+<b>Connessioni interdisciplinari</b>
+
+<p><i><u>
+Quanto ritieni di padroneggiare la correlazione tra i saperi disciplinari della tua classe di concorso e le altre, anche in relazione agli obiettivi di apprendimento e (nel caso di scuola secondaria di secondo grado) al PECUP proprio dei distinti indirizzi di studio?  
+</i></u>
+</p>
+<p>La classe di concorso A040 presenta una forte natura interdisciplinare, poiché comprende ambiti quali elettronica, elettrotecnica, fisica, matematica, meccanica e informatica. Si tratta di discipline che hanno caratterizzato il mio percorso di studi e la mia formazione di base, consentendomi di cogliere con relativa facilità i collegamenti tra i diversi saperi e di integrarli nella pratica didattica. Anche l'esperienza maturata in classe mi ha confermato quanto queste discipline siano strettamente connesse tra loro e come una visione d'insieme favorisca una maggiore comprensione da parte degli studenti, ritengo quindi di possedere una buona padronanza delle connessioni interdisciplinari, pur considerando sempre utile continuare ad approfondire questo aspetto nel corso della mia attività professionale. </p>
+
+
+<p><i><u>Quanto ritieni di essere un promotore delle otto competenze chiave europee per l’apprendimento permanente? </i></u></p>
+
+<p>Nel mio percorso di insegnamento, ho già avuto modo di lavorare in modo abbastanza costante sulle “competenze chiave europee”, in particolare sulla <b>competenza STEM</b> (che include matematica, scienze, tecnologie e ingegneria), che è quella più “naturale” per la mia classe di concorso A040. Il pensiero scientifico, l’uso di modelli o la lettura dei fenomeni tecnici sono cose che entrano ogni giorno in classe, quasi senza doverle forzare, direi che fanno proprio parte del “mestiere”. <br>
+Anche la <b>competenza digitale</b> è ormai centrale nella didattica. Uso strumenti tecnologici sia per la gestione delle lezioni sia per supportare l’apprendimento degli studenti, a volte in modo più strutturato, altre volte in maniera più semplice e immediata, ma comunque è un aspetto che sento abbastanza consolidato. <br>
+Infine la <b>competenza personale, sociale e imparare a imparare</b> si è sviluppata molto attraverso il confronto con colleghi, studenti, genitori, Tutors e tirocinanti. In realtà è una di quelle competenze che non si “chiude”, ma al contrario si costruisce nel tempo, infatti gestire la classe, riflettere sugli errori e adattarsi continuamente, sono tutte cose che, secondo me, sto già facendo con una buona consapevolezza, anche se rimane sempre spazio per migliorare. <br></p>
+
+
+
+</div>
+
+
+
+
+<div class="indicatore">
+
+<b>Gestione del gruppo classe</b>
+
+<p><i><u>
+Quanto ritieni di saper comunicare agli studenti gli obiettivi delle attività, le strategie, i criteri di valutazione?  
+</i></u>
+</p>
+<p>Durante l’esperienza di tirocinio e nelle attività in classe ho avuto modo di lavorare abbastanza sulla comunicazione degli obiettivi e delle modalità di lavoro, ho cercato di rendere chiaro agli studenti cosa si stava facendo, perché lo si faceva e quali criteri avrebbero guidato la valutazione. Pensandoci a fondo, non sempre risulterebbe un processo lineare, infatti a volte mi sono accorto che, nonostante le spiegazioni iniziali, alcuni studenti avevano bisogno di ulteriori chiarimenti o di essere guidati passo dopo passo, queste situazioni mi hanno fatto capire che comunicare bene non significa solo “dire”, ma anche verificare continuamente la comprensione e riadattare il linguaggio. </p>
+
+
+<p><i><u>Quanto ritieni di padroneggiare le strategie didattiche volte alla personalizzazione e all’inclusione, mediante ambienti di apprendimento opportuni, il coinvolgimento di tutti gli alunni e delle figure professionali che concorrono alla loro formazione, anche integrando le tecnologie della comunicazione? </i></u></p>
+
+<p>L’esperienza in classe, soprattutto a contatto con studenti con bisogni educativi differenti e con il supporto dei docenti di sostegno, mi ha permesso di sviluppare una maggiore consapevolezza sul tema dell’inclusione, infatti ho compreso che non esistono strategie valide sempre e per tutti. Ogni classe, e spesso ogni singolo studente, richiede un’attenzione specifica e una certa flessibilità nella gestione delle attività, pertanto in alcune situazioni mi sono trovato a dover ricalibrare tempi e modalità, proprio perché la risposta degli studenti non era quella prevista inizialmente. <br>
+Ho inoltre avuto modo di sperimentare metodologie come il cooperative learning, il problem solving e le attività laboratoriali, sono strumenti che secondo il mio parere possono aumentare la partecipazione e aiutare a coinvolgere anche gli studenti più in difficoltà. Non sempre tutto funziona al “primo colpo”, ma è proprio lì che si impara di più, sul campo, tra una correzione e l’altra. 
+</p>
+
+
+
+</div>
+
+
+<div class="indicatore">
+
+<b>Progettazione e organizzazione</b>
+
+
+<p>Nel corso del tirocinio e dell’esperienza in classe ho avuto modo di entrare nella progettazione didattica in modo abbastanza concreto, non solo teorico. Prima di tutto ho imparato a modulare i contenuti con le tempistiche, in base alle caratteristiche del gruppo classe, che spesso non risponde in modo uniforme a ciò che si pianifica all’inizio. <br>
+In realtà, più di una volta mi sono trovato a rivedere la programmazione “in corsa”, adattando le attività per renderle più accessibili o più efficaci. Anche il lavoro in collaborazione con i docenti di sostegno è stato fondamentale, di certo mi ha fatto capire quanto la progettazione condivisa non sia un’aggiunta, ma una parte essenziale del processo educativo, soprattutto in ottica inclusiva.
+ </p>
+
+
+</div>
+
+<div class="indicatore">
+
+<b>Valutazione</b>
+
+
+<p>Nel corso dell’esperienza di insegnamento e del tirocinio ho avuto modo di costruire e somministrare prove di verifica cercando sempre una coerenza con le attività svolte in classe e con gli obiettivi di apprendimento condivisi, ed uno degli aspetti più delicati è stato proprio garantirne la “coerenza”, ossia mantenere allineati contenuti, modalità di lavoro e criteri di valutazione esplicitati agli studenti fin dall’inizio. Non sempre è immediato, perché a volte ci si accorge che una prova di verifica richiede molta progettazione per essere davvero aderente a ciò che è stato fatto, d’altronde se non fosse così finiremmo a discutere continuamente con gli studenti, nel rispondere alle classiche domande : “ Prof. ma questo argomento non l’abbiamo fatto! O meglio “..non l’abbiamo mai affrontato in questo modo!” &#128522;
+ </p>
+
+
+</div>
+
+
+
+
+
+<div class="paragrafo">
+
+<h3>
+Riflessione conclusiva
+</h3>
+
+<p>
+Ripensando all’esperienza di tirocinio e al percorso di insegnamento svolto, credo che il mio approccio alla professione docente sia cambiato in modo graduale, quasi senza accorgermene subito, all’inizio infatti tendevo a vedere la lezione come qualcosa di abbastanza lineare, centrata soprattutto sui contenuti da trasmettere, ma con il passar del tempo, mi sono poi reso conto che la realtà della classe è molto più dinamica e complessa, fatta di relazioni, reazioni impreviste e continui aggiustamenti. Riflettendoci sopra, è proprio questo che mi ha fatto crescere di più, entrare in aula significa imparare a leggere il contesto, capire quando insistere e quando invece cambiare strada, a volte basta una domanda, uno sguardo o una reazione un po’ più silenziosa del solito per capire che bisogna rallentare o semplificare. <br>
+In questo percorso ho anche avuto la possibilità di sperimentare nuove metodologie didattiche, strumenti che all’inizio vedevo quasi come “aggiunte”, ma che poi ho iniziato a integrare in modo più naturale e anche le tecnologie digitali hanno avuto un ruolo importante, non solo come supporto, ma come parte attiva della didattica. Non sempre tutto è andato liscio, alcune attività hanno richiesto aggiustamenti in corso, però proprio lì ho capito quanto sia importante la flessibilità.
+
+</p>
+
+
+
+</div>
+
+
+
+
+<div class="paragrafo">
+
+<h3>
+Prospettive di sviluppo professionale e formazione continua (Lifelong Learning)
+</h3>
+
+<p>
+Nel complesso sento di aver maturato una maggiore consapevolezza del ruolo docente, che non si limita solo alla trasmissione dei contenuti,  ma che coinvolge anche la costruzione di un ambiente di apprendimento inclusivo e attento alle differenze. L’esperienza con studenti con bisogni educativi speciali, insieme al confronto con i docenti di sostegno, mi ha fatto capire quanto sia necessario adattare continuamente le strategie e non dare mai nulla per scontato, a conferma di quanto sia vera l’affermazione che in molti casi “non esiste una formula magica”. <br>
+Per il futuro credo sia importante continuare su questa linea, ossia da un lato consolidare le competenze disciplinari della mia area STEM, dall’altro approfondire metodologie didattiche sempre più inclusive,  questo approccio non lo vedo come un punto di arrivo, ma al contrario come un percorso che richiede aggiornamento continuo, e penso sia proprio questa la parte più interessante della professione docente: non si smette mai davvero di imparare.
+
+
+</p>
+
+
+
+</div>
+
+
+
+</div>
+
+
+<div>
+<h3>
+<hr>
+Sitografia 
+</h3>
+<ul>
+   <li> https://claudiamatini.it/circle-time/ (Circle Time a scuola: strategie pratiche per inclusione e clima positivo)
+   </li>
+
+</ul>
+
+<br>
+<hr>
+</div>
+
+<div class="fine-pagina">
+
+E-Portfolio Stefano Reho<br>
+
+Percorso formativo e professionale
+
+</div>
+
+
+
+</div>
+
+
+</body>
+
+</html>
